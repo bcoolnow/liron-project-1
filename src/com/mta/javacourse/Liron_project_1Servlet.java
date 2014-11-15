@@ -13,9 +13,11 @@ public class Liron_project_1Servlet extends HttpServlet {
 		int result=(num1+num2)*num3;
 		double area=Math.PI*(radius*radius);
 		double resultofpower=Math.pow(20,13);
-
+		double degrees = 30.0;
+		double radians2 = Math.toRadians(degrees);
+		double lengthofopposite=radians2*50;
 		String line1 = new String("calculation 1: Area of circle with radius ("+radius+") is ("+area+") square cm ");
-		String line2 = new String("calculation 2: Length of opposite	where angle B ...");
+		String line2 = new String("calculation 2: Length of opposite where angle 30 degree and Hypotenus is 50 cm is :("+lengthofopposite+")");
 		String line3 = new String("calculation 3: Power of 20 with exp 	of 13 is ("+resultofpower+")");
 		String resultStr = new String("<h1>Result of ( "+num1+"+"+num2+") *"+num3+"="+result+"</h1>");
 		String resultStr2 = line1 + "<br>" + line2 + "<br>" +line3;
