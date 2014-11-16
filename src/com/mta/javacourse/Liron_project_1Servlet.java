@@ -14,7 +14,7 @@ public class Liron_project_1Servlet extends HttpServlet {
 		double area=Math.PI*(radius*radius);
 		double resultofpower=Math.pow(20,13);
 		double degrees = 30;
-		double radians2 = Math.toRadians(degrees);
+		double radians2 = Math.sin(Math.toRadians(degrees));
      	 double lengthofopposite=50*radians2;
 		String line1 = new String("calculation 1: Area of circle with radius ("+radius+") is ("+area+") square cm ");
 		String line2 = new String("calculation 2: Length of opposite where angle 30 degree and Hypotenus is 50 cm is :("+lengthofopposite+")");
